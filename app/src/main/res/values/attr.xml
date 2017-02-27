@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerticalMarqueeTextView">
+        <attr name="VerticalMarqueeTextView_textColor" format="color" />
+        <attr name="VerticalMarqueeTextView_textSize" format="dimension" />
+        <attr name="VerticalMarqueeTextView_isRepeat" format="boolean" />
+        <attr name="VerticalMarqueeTextView_startPoint" format="integer" >
+            <enum name="start" value="0" />
+            <enum name="end" value="1" />
+        </attr>
+        <attr name="VerticalMarqueeTextView_direction" format="integer" >
+            <enum name="up" value="0" />
+            <enum name="down" value="1" />
+        </attr>
+        <attr name="VerticalMarqueeTextView_speed" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lip.verticalmarqueeviewdemo.MainActivity">
+
+    <com.lip.verticalmarqueeviewdemo.view.VerticalMarqueeView
+        android:id="@+id/lip_VerticalView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        />
+
+    <TextView
+        android:id="@+id/tv_start_roll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="开始滚动"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/tv_pause_roll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="暂停滚动"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/tv_restart_roll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="恢复滚动"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/tv_next"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="下一条"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        />
+
+</LinearLayout>
