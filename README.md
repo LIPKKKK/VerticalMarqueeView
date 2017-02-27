@@ -17,7 +17,7 @@ Add the dependency
             compile 'com.github.LIPKKKK:VerticalMarqueeView:v1.0.3'
       }
 ```
-  ##how to use
+##how to use
 
 ```
 <com.lip.verticalmarqueeviewdemo.view.VerticalMarqueeView
