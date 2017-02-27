@@ -327,7 +327,7 @@ public class VerticalMarqueeView extends SurfaceView implements SurfaceHolder.Ca
     public static final int ROLL_OVER = 100;//一条播放完毕
     public static final int STOP_ROLL = 200;//停止滚动
     public static final int START_ROLL = 300;//开始滚动
-    public static final int STOP_THREAT = 400;//停止线程
+    public static final int STOP_THREAT = 400;//停止线程a
     Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
