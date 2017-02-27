@@ -2,23 +2,24 @@ VerticalMarqueeView
 
 maven
 
+```
     allprojects {
         repositories {
             ...
             maven { url 'https://jitpack.io' }
         }
     }
-
+```
 Add the dependency
 
-    ```
+```
     dependencies {
             compile 'com.github.LIPKKKK:VerticalMarqueeView:v1.0.3'
       }
-
-
+```
   ##how to use
 
+```
 <com.lip.verticalmarqueeviewdemo.view.VerticalMarqueeView
     android:id="@+id/lip_VerticalView"
     android:layout_width="match_parent"
@@ -31,7 +32,7 @@ Add the dependency
     app:VerticalMarqueeTextView_direction = "1"
     app:VerticalMarqueeTextView_speed = "20"
     />
-
+```
 *VerticalMarqueeTextView_textColor : 文字颜色
 
 *VerticalMarqueeTextView_textSize ： 文字大小
@@ -46,6 +47,7 @@ Add the dependency
 
    handler.sendEmptyMessageDelayed(START_ROLL, 100);
 
+```
    /**
     * 开始播放
     */
@@ -83,5 +85,5 @@ Add the dependency
     private void restartRoll() {
         lipVerticalView.restartRoll();
     }
-
+```
 
