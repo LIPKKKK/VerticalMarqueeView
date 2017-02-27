@@ -294,7 +294,7 @@ public class VerticalMarqueeView extends SurfaceView implements SurfaceHolder.Ca
                                 isFirstDraw = false;
                             }
                         }
-                        Thread.sleep(mSpeed);//睡眠时间为移动的频率
+                        Thread.sleep(mSpeed);//睡眠时间为移动的频率~
                     }
                 }
 
