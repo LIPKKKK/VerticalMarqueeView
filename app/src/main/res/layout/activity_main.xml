@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="com.lip.verticalmarqueeviewdemo.MainActivity">
 
-    <com.lip.verticalmarqueeviewdemo.view.VerticalMarqueeView
+    <com.lip.verticalmarqueeview.VerticalMarqueeView
         android:id="@+id/lip_VerticalView"
         android:layout_width="match_parent"
         android:layout_height="0dp"

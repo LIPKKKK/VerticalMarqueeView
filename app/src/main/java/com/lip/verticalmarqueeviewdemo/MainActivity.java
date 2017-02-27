@@ -9,7 +9,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.weds.verticalmarqueeview.VerticalMarqueeView;
+
+import com.lip.verticalmarqueeview.VerticalMarqueeView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
