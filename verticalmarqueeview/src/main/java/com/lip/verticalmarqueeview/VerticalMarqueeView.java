@@ -59,7 +59,7 @@ public class VerticalMarqueeView extends SurfaceView implements SurfaceHolder.Ca
 
     private StaticLayout staticLayout;//绘制多行文本所需类
 
-    private boolean isFirstDraw = true;//是否为某条文本的第一次绘制~
+    private boolean isFirstDraw = true;//是否为某条文本的第一次绘制~~
 
     private boolean isStop = false;
     private int sec = 5000;
